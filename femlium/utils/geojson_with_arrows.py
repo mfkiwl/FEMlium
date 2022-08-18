@@ -13,7 +13,7 @@ import folium.features
 import folium.utilities
 
 
-class GeoJsonWithArrows(folium.elements.JSCSSMixin, folium.features.GeoJson):
+class GeoJsonWithArrows(folium.elements.JSCSSMixin, folium.features.GeoJson):  # type: ignore[misc, no-any-unimported]
     """
     A GeoJson object with arrows for plotting into a Map.
 
